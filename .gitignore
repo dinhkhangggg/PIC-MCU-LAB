@@ -1,0 +1,13 @@
+# Ignore all files by default
+*
+
+# Do not ignore directories (necessary to traverse folders)
+!*/
+
+# Whitelist C source and header files
+!*.c
+!*.h
+
+# Whitelist Git and documentation files
+!.gitignore
+!README.md
