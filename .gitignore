@@ -1,13 +1,15 @@
-# Ignore all files by default
+# 1. Bỏ qua toàn bộ tất cả các file và thư mục
 *
 
-# Do not ignore directories (necessary to traverse folders)
-!*/
-
-# Whitelist C source and header files
+# 2. Chỉ cho phép theo dõi các file code trong thư mục gốc
 !*.c
 !*.h
-
-# Whitelist Git and documentation files
-!.gitignore
 !README.md
+!.gitignore
+
+# 3. Đảm bảo chắc chắn chặn các thư mục rác (kể cả khi lỡ gõ sai lệnh git)
+/TTVXL/
+/Thuc Hanh - Copy/
+/__history/
+/Project Backups/
+/test/
